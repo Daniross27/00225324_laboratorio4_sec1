@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #2a3aeb 0%, #fff349 100%);
+    min-height: 100vh;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.card {
+    background: rgb(229, 229, 229);
+    padding: 30px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(10px);
+}
+
+
+.selection-section h2 {
+    color: #000000;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    border-bottom: 3px solid #001df7;
+    padding-bottom: 10px;
+}
+
+
+.day-group {
+    margin-bottom: 20px;
+}
+
+.day-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+select {
+    padding: 12px 16px;
+    border: 2px solid #001df7;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.resultado-section h2 {
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border-bottom: 3px solid #48bb78;
+    padding-bottom: 10px;
+}
+
+.resultado-card {
+    background: #f8fafc;
+    border-radius: 15px;
+    padding: 20px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actividad-titulo {
+    font-size: 1.3rem;
+    color: #2d3748;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
